@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Raghav Sharma — Portfolio</title>
+  <meta name="description" content="Raghav Sharma (RS140207) — software projects, accessibility, 3D visualization, and web development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Raghav</a>
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>Hi, I'm <span class="accent">Raghav</span></h1>
+          <p class="lead">Software developer focused on accessibility, web development, and 3D visualization. I build practical solutions (Python, TypeScript, HTML/CSS) and prototype features for real users.</p>
+          <p>
+            <a class="btn" href="https://github.com/RS140207" target="_blank" rel="noopener">View GitHub</a>
+            <a class="btn ghost" href="#projects">See Projects</a>
+          </p>
+        </div>
+        <div class="hero-right">
+          <img class="avatar" src="https://avatars.githubusercontent.com/u/211795248?v=4" alt="Raghav Sharma avatar">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About</h2>
+      <p>I'm Raghav Sharma (RS140207). My work focuses on building accessible software and interactive tools. Recent projects include accessibility tooling, attendance systems, and 3D visualization. I enjoy learning and contributing to open-source projects.</p>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>Highlighted Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3><a href="https://github.com/RS140207/Vision-impaired" target="_blank" rel="noopener">Vision-impaired</a></h3>
+          <p>An accessibility-focused project built to help visually impaired users interact with digital systems — includes audio feedback and keyboard-first navigation.</p>
+          <p class="meta">Tech: Python, accessibility</p>
+        </article>
+
+        <article class="project-card">
+          <h3><a href="https://github.com/RS140207/Orthographicprojections3D" target="_blank" rel="noopener">Orthographicprojections3D</a></h3>
+          <p>A 3D visualization and orthographic projection study implemented in Python. Useful for understanding projection math and rendering simple scenes.</p>
+          <p class="meta">Tech: Python, Visualization</p>
+        </article>
+
+        <article class="project-card">
+          <h3><a href="https://github.com/RS140207/GNDU-Attendance-System" target="_blank" rel="noopener">GNDU Attendance System</a></h3>
+          <p>An attendance management system (HTML-based fork) demonstrating practical web application structure for educational use.</p>
+          <p class="meta">Tech: HTML, CSS, JavaScript</p>
+        </article>
+
+        <article class="project-card">
+          <h3><a href="https://github.com/RS140207/Hackathon-practice" target="_blank" rel="noopener">Hackathon-practice</a></h3>
+          <p>Recent hackathon projects and practice code — a place where quick ideas and prototypes live.</p>
+          <p class="meta">Tech: Various (Python, TypeScript, Web)</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="skills container">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>Python</li>
+        <li>TypeScript / JavaScript</li>
+        <li>HTML &amp; CSS</li>
+        <li>Accessibility (A11y)</li>
+        <li>3D Visualization</li>
+        <li>Git &amp; Open Source</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>Find me on <a href="https://github.com/RS140207" target="_blank" rel="noopener">GitHub</a>. If you'd like, add your email and I'll wire up a contact form or deployment to Netlify/Vercel.</p>
+      <p>
+        <a class="btn" href="https://github.com/RS140207" target="_blank" rel="noopener">Open GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Raghav Sharma — <a href="https://github.com/RS140207" target="_blank" rel="noopener">@RS140207</a></small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
