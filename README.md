@@ -1,4 +1,4 @@
-# Navya (RS140207) — Portfolio
+# (RS140207) — Portfolio
 
 This is a simple portfolio website, generated from the GitHub profile at https://github.com/RS140207.
 
