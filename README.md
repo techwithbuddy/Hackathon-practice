@@ -1,6 +1,6 @@
 # Navya (RS140207) — Portfolio
 
-This is a simple portfolio website for Navya Sharma, generated from the GitHub profile at https://github.com/RS140207.
+This is a simple portfolio website, generated from the GitHub profile at https://github.com/RS140207.
 
 ## What I added
 - `index.html` — homepage with About, Projects, Skills, Contact sections
